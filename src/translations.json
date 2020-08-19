@@ -1,0 +1,18 @@
+{
+  "en-US": {
+    "translations": {
+      "title": "Software Developer",
+      "about": "About",
+      "xp": "Experience",
+      "skills": "Skills"
+    }
+  },
+  "pt-BR": {
+    "translations": {
+      "title": "Desenvolvedor de Software",
+      "about": "Sobre",
+      "xp": "Experiência",
+      "skills": "Habilidades"
+    }
+  }
+}
