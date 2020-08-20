@@ -1,5 +1,5 @@
 {
-  "en-US": {
+  "en": {
     "translations": {
       "title": "Software Developer",
       "about": "About",
@@ -8,7 +8,7 @@
       "404": "The URL was not found."
     }
   },
-  "pt-BR": {
+  "pt": {
     "translations": {
       "title": "Desenvolvedor de Software",
       "about": "Sobre",

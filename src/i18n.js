@@ -12,7 +12,8 @@ i18n
       order: ['path'],
       lookupFromPathIndex: 0
     },
-    fallbackLng: 'en-US',
+    fallbackLng: 'en',
+    load: 'languageOnly',
     debug: true,
     ns: ['translations'],
     defaultNS: 'translations',
