@@ -143,23 +143,35 @@ const Menu = ({ links }) => {
   );
 };
 
-const Content = ({ links }) => {
-  const classes = "text-white mx-8 sm:mx-10 md:mx-16 lg:mx-32 xl:mx-64";
+const Gs404 = ({ classes }) => {
+  const [t] = useTranslation();
 
   return (
-    <>
-      <Route exact path="/">
-        <Redirect to={"/" + i18n.language + "/about"} />
-      </Route>
-      {links.map(e => (
-        <Route
-          path={"/" + i18n.language + e.to}
-          render={() => <e.component classes={classes} />}
-          key={e.name}
-        />
-      ))}
-    </>
+    <div className={classes}>
+      {t('404')}
+    </div>
   );
+}
+
+const Content = links => {
+  const [, i18n] = useTranslation();
+
+  const classes = "text-white mx-8 sm:mx-10 md:mx-16 lg:mx-32 xl:mx-64";
+
+  return [
+    <Route key={'home'} exact path="/">
+      <Redirect to={"/" + i18n.language + "/about"} />
+    </Route>,
+    ...links.map(e => (
+      <Route
+        key={e.name}
+        exact
+        path={"/" + i18n.language + e.to}
+        render={() => <e.component classes={classes} />}
+      />
+    )),
+    <Route key={'404'} render={() => <Gs404 classes={classes} />} />
+  ];
 };
 
 const Header = ({ links }) => {
@@ -250,7 +262,7 @@ const App = () => {
 
         <GsLinks links={links} />
         <Switch>
-          <Content links={links} />
+          {Content(links)}
         </Switch>
       </div>
     </Router>

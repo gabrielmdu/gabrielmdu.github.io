@@ -4,7 +4,8 @@
       "title": "Software Developer",
       "about": "About",
       "xp": "Experience",
-      "skills": "Skills"
+      "skills": "Skills",
+      "404": "The URL was not found."
     }
   },
   "pt-BR": {
@@ -12,7 +13,8 @@
       "title": "Desenvolvedor de Software",
       "about": "Sobre",
       "xp": "Experiência",
-      "skills": "Habilidades"
+      "skills": "Habilidades",
+      "404": "A página não foi encontrada."
     }
   }
 }
