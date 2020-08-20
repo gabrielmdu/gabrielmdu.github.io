@@ -14,7 +14,7 @@ i18n
     },
     fallbackLng: 'en',
     load: 'languageOnly',
-    debug: true,
+    debug: process.env.NODE_ENV === 'production' ? false : true,
     ns: ['translations'],
     defaultNS: 'translations',
     react: {
