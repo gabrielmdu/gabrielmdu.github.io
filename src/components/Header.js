@@ -24,9 +24,7 @@ const TranslationButtons = () => {
               buttonClasses +
               (i18n.language === trans ? 'bg-indigo-900' : '')
             }
-            onClick={() =>
-              i18n.language !== trans && i18n.changeLanguage(trans)
-            }
+            onClick={() => i18n.language !== trans && i18n.changeLanguage(trans)}
           >
             {trans}
           </Link>)}
@@ -38,6 +36,16 @@ const TranslationButtons = () => {
 const Header = ({ links }) => {
   const [t, i18n] = useTranslation();
   const location = useLocation();
+
+  const socialLinks = [{
+    name: 'github',
+    href: 'https://www.github.com/gabrielmdu',
+    image: GitHubLogo
+  }, {
+    name: 'linkedin',
+    href: 'https://www.linkedin.com/in/gabrielschulte',
+    image: LinkedInLogo
+  }];
 
   const headerLink = links.filter(
     e => "/" + i18n.language + e.to === location.pathname
@@ -57,25 +65,21 @@ const Header = ({ links }) => {
         <div className="flex-grow box w-auto mx-3" />
       </div>
 
-      <div className="text-right">
-        <a
-          className="mr-2"
-          target="_blank"
-          rel="noopener noreferrer"
-          href="https://www.github.com/gabrielmdu"
-        >
-          <GitHubLogo className="inline-block w-8 h-8 fill-current text-gray-200" />
-        </a>
-
-        <a
-          target="_blank"
-          rel="noopener noreferrer"
-          href="https://www.linkedin.com/in/gabrielschulte"
-        >
-          <LinkedInLogo className="inline-block w-8 h-8 fill-current text-gray-200" />
-        </a>
+      <div className="flex justify-end">
+        <div className="flex justify-around w-20 text-white">
+          {socialLinks.map(link =>
+            <a
+              key={link.name}
+              target="_blank"
+              rel="noopener noreferrer"
+              href={link.href}
+            >
+              <link.image className="inline-block w-8 h-8 fill-current text-gray-200" />
+            </a>)}
+        </div>
       </div>
-      <div className="sm:hidden inline-block uppercase text-white mt-3 mb-4 pb-1 pt-1 px-2 bg-gray-200 text-gray-800">
+      <div className={'sm:hidden inline-block uppercase text-white ' +
+        'mt-3 mb-4 pb-1 pt-1 px-2 bg-gray-200 text-gray-800'}>
         {headerLink ? t(headerLink.name) : '404'}
       </div>
     </div>
