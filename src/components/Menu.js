@@ -1,23 +1,12 @@
 import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
-import { ReactComponent as GitHubLogo } from "../assets/img/github.svg";
-import { ReactComponent as LinkedInLogo } from "../assets/img/linkedin.svg";
 import { TranslationButtons } from './TranslationButtons.js';
+import { socialLinks, links } from '../common.js';
 
-const Menu = ({ links }) => {
+const Menu = () => {
   const [isShown, setIsShown] = useState(false);
   const [t, i18n] = useTranslation();
-
-  const socialLinks = [{
-    name: 'github',
-    href: 'https://www.github.com/gabrielmdu',
-    image: GitHubLogo
-  }, {
-    name: 'linkedin',
-    href: 'https://www.linkedin.com/in/gabrielschulte',
-    image: LinkedInLogo
-  }];
 
   return (
     // adapted from https://www.w3schools.com/howto/howto_css_menu_icon.asp
