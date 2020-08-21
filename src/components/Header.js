@@ -1,37 +1,9 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
-import { useLocation, Link } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 import { ReactComponent as GitHubLogo } from "../assets/img/github.svg";
 import { ReactComponent as LinkedInLogo } from "../assets/img/linkedin.svg";
-
-const TranslationButtons = () => {
-  const location = useLocation();
-  const [, i18n] = useTranslation();
-
-  const availableTranslations = ['en', 'pt'];
-  const buttonClasses = 'rounded-full inline-flex items-center justify-center ' +
-    'cursor-pointer border-2 h-8 w-8 transition-colors ' +
-    'duration-500 ease-in-out hover:bg-purple-900 ';
-
-  return (
-    <div className="flex justify-end">
-      <div className="flex justify-around w-20 text-white">
-        {availableTranslations.map(trans =>
-          <Link
-            key={trans}
-            to={'/' + trans + '/' + location.pathname.split('/')[2]}
-            className={
-              buttonClasses +
-              (i18n.language === trans ? 'bg-indigo-900' : '')
-            }
-            onClick={() => i18n.language !== trans && i18n.changeLanguage(trans)}
-          >
-            {trans}
-          </Link>)}
-      </div>
-    </div>
-  );
-};
+import { TranslationButtons } from "./TranslationButtons";
 
 const Header = ({ links }) => {
   const [t, i18n] = useTranslation();
@@ -53,7 +25,7 @@ const Header = ({ links }) => {
 
   return (
     <div className="name-wrap w-4/5 lg:w-6/12 md:w-2/3 text-center mx-auto mt-3 md:mt-5">
-      <TranslationButtons />
+      <TranslationButtons smHidden={false} />
       <span className="block name text-4xl md:text-5xl lg:text-6xl leading-none text-gray-200">
         Gabriel Schulte
         </span>
@@ -65,7 +37,7 @@ const Header = ({ links }) => {
         <div className="flex-grow box w-auto mx-3" />
       </div>
 
-      <div className="flex justify-end">
+      <div className="hidden sm:flex justify-end">
         <div className="flex justify-around w-20 text-white">
           {socialLinks.map(link =>
             <a

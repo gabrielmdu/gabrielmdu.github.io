@@ -1,10 +1,23 @@
-import React, { useState } from "react";
-import { useTranslation } from "react-i18next";
-import { Link } from "react-router-dom";
+import React, { useState } from 'react';
+import { useTranslation } from 'react-i18next';
+import { Link } from 'react-router-dom';
+import { ReactComponent as GitHubLogo } from "../assets/img/github.svg";
+import { ReactComponent as LinkedInLogo } from "../assets/img/linkedin.svg";
+import { TranslationButtons } from './TranslationButtons.js';
 
 const Menu = ({ links }) => {
   const [isShown, setIsShown] = useState(false);
   const [t, i18n] = useTranslation();
+
+  const socialLinks = [{
+    name: 'github',
+    href: 'https://www.github.com/gabrielmdu',
+    image: GitHubLogo
+  }, {
+    name: 'linkedin',
+    href: 'https://www.linkedin.com/in/gabrielschulte',
+    image: LinkedInLogo
+  }];
 
   return (
     // adapted from https://www.w3schools.com/howto/howto_css_menu_icon.asp
@@ -13,8 +26,8 @@ const Menu = ({ links }) => {
       <div className="fixed inset-0 sm:hidden m-0 p-0 w-full h-12 bg-black">
         <div
           className={
-            "absolute inline-flex flex-col justify-between ml-2 mt-2 h-8 w-10 cursor-pointer " +
-            (isShown ? "change" : "")
+            'absolute inline-flex flex-col justify-between ml-2 mt-2 h-8 w-10 cursor-pointer ' +
+            (isShown ? 'change' : '')
           }
           onClick={() => setIsShown(!isShown)}
         >
@@ -22,13 +35,16 @@ const Menu = ({ links }) => {
           <div className="bar2 h-2" />
           <div className="bar3 h-2" />
         </div>
+        <div className="flex items-center h-full inline-block float-right mr-6">
+          <TranslationButtons smHidden />
+        </div>
       </div>
       <div
         className={
-          "sm:hidden fixed h-screen transition transform duration-500 ease-in-out top-12 w-64 bg-indigo-900 " +
+          'sm:hidden fixed h-screen transition transform duration-500 ease-in-out top-12 w-64 bg-indigo-900 ' +
           (isShown
-            ? "translate-x-0 menu-shadow"
-            : "-translate-x-full no-shadow")
+            ? 'translate-x-0 menu-shadow'
+            : '-translate-x-full no-shadow')
         }
       >
         <ul className="text-white text-xl menu-link">
@@ -36,7 +52,7 @@ const Menu = ({ links }) => {
             <li className="p-3 my-2" key={e.name}>
               <Link
                 className="block pl-2 border-b-4 border-pink-800"
-                to={"/" + i18n.language + e.to}
+                to={'/' + i18n.language + e.to}
                 onClick={() => setIsShown(false)}
               >
                 {
@@ -47,6 +63,17 @@ const Menu = ({ links }) => {
             </li>
           ))}
         </ul>
+        <div className="flex justify-evenly p-6 my-2">
+          {socialLinks.map(link =>
+            <a
+              key={link.name}
+              target="_blank"
+              rel="noopener noreferrer"
+              href={link.href}
+            >
+              <link.image className="inline-block w-10 h-10 fill-current text-gray-200" />
+            </a>)}
+        </div>
       </div>
     </div>
   );
