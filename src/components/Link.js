@@ -30,7 +30,7 @@ const GsLinks = () => {
     <div className="hidden sm:flex justify-center">
       {links.map(e => (
         <GsLink to={e.to} key={e.to}>
-          {t(`sessions.${e.name}`)}
+          {t(`sessions.${e.name}.title`)}
         </GsLink>
       ))}
     </div>

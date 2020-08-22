@@ -51,7 +51,7 @@ const Menu = () => {
                 {
                   <e.icon className="inline-block mb-1 mr-2 w-4 h-4 fill-current text-gray-200" />
                 }
-                {t(`sessions.${e.name}`)}
+                {t(`sessions.${e.name}.title`)}
               </Link>
             </li>
           ))}

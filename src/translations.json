@@ -3,10 +3,79 @@
     "translations": {
       "title": "Software Developer",
       "sessions": {
-        "about": "About",
-        "xp": "Experience",
-        "skills": "Skills",
-        "projects": "Projects"
+        "about": {
+          "title": "About"
+        },
+        "xp": {
+          "title": "Experience",
+          "jobs": [{
+            "company": "Postmetria",
+            "date": "Jun 2019 - Present",
+            "position": "Full-Stack Developer",
+            "activities": [
+              "SPA development of a customer relationship metric tool with React and PHP",
+              "Node.js and Python scripts for routines and web microservices",
+              "Docker containers environment, MySQL and Elasticsearch"
+            ]
+          }, {
+            "company": "Judice Online",
+            "date": "Mar 2018 - Jun 2019",
+            "position": "Full-Stack Developer",
+            "activities": [
+              "Development of a web app for law firms",
+              "Programming with PHP, PostgreSQL, JS, CSS and HTML",
+              "Diverse Python routine scripts"
+            ]
+          }, {
+            "company": "BRS Sistemas Eletrônicos",
+            "date": "Feb 2012 - Mar 2018",
+            "position": "Software Engineer",
+            "activities": [
+              "Software engineering focused on desktop and web applications for building automation",
+              "Development of a bulding energy management software suite",
+              "Development of a logic visual programmer with draggable blocks, including its linker, compiler and debugger",
+              "Development of many tools for electronic equipment setups",
+              "Code improvement and performance optimization",
+              "DLLs creation",
+              "Database structure creation, update and maintenance",
+              "Desktop development with C++",
+              "Web development with JavaScript, HTML, CSS/SCSS, JSON and XML",
+              "Desktop and web user interface design"
+            ]
+          }, {
+            "company": "VFR Sistemas",
+            "date": "Feb 2011 - Oct 2011",
+            "position": "Support, Programmer",
+            "activities": [
+              "Support on systems for lab test equipments",
+              "Bash script programming",
+              "Qt Creator programming (C++)",
+              "PostgreSQL DB administration"
+            ]
+          }, {
+            "company": "TheVelopers",
+            "date": "Jun 2010 - Jun 2011",
+            "position": "Programmer",
+            "activities": [
+              "University group for games development on the iOS",
+              "One game released on the App Store",
+              "C# and JavaScript programming with Unity 3D engine"
+            ]
+          }, {
+            "company": "PMI-RS",
+            "date": "Sep 2006 - Feb 2007",
+            "position": "Webdesigner",
+            "activities": [
+              "Institute's site management and graphic components creation"
+            ]
+          }]
+        },
+        "skills": {
+          "title": "Skills"
+        },
+        "projects": {
+          "title": "Projects"
+        }
       },
       "404": "The URL was not found."
     }
@@ -15,10 +84,79 @@
     "translations": {
       "title": "Desenvolvedor de Software",
       "sessions": {
-        "about": "Sobre",
-        "xp": "Experiência",
-        "skills": "Habilidades",
-        "projects": "Projetos"
+        "about": {
+          "title": "Sobre"
+        },
+        "xp": {
+          "title": "Experiência",
+          "jobs": [{
+            "company": "Postmetria",
+            "date": "Jun 2019 - Presente",
+            "position": "Programador Full-Stack",
+            "activities": [
+              "Programação de SPA em React e PHP para ferramenta de medição de satisfação de consumidores",
+              "Scripts em Node.js e Python para rotinas e microsserviços web",
+              "Ambiente em contêineres Docker, MySQL e Elasticsearch"
+            ]
+          }, {
+            "company": "Judice Online",
+            "date": "Mar 2018 - Jun 2019",
+            "position": "Programador Full-Stack",
+            "activities": [
+              "Desenvolvimento de software web para escritórios de advocacia",
+              "Programação com PHP e JavaScript, banco PostgreSQL",
+              "Criação de rotinas em Python"
+            ]
+          }, {
+            "company": "BRS Sistemas Eletrônicos",
+            "date": "Fev 2012 - Mar 2018",
+            "position": "Projetista de software",
+            "activities": [
+              "Projeção e desenvolvimento de softwares desktop e web para automação predial",
+              "Criação de uma suíte de gestão predial de insumos de energia",
+              "Criação de um programador visual de lógica com blocos, incluindo linker, compilador e depurador",
+              "Criação de diversos softwares para configuração de equipamentos eletrônicos",
+              "Melhoria de código e otimização de performance",
+              "Criação de DLLs",
+              "Criação de estrutura de bancos de dados, atualizações e manutenção",
+              "Desenvolvimento desktop em C++",
+              "Desenvolvimento web em JavaScript, HTML, CSS/SCSS, JSON e XML",
+              "Design de interface de usuário para desktop e web"
+            ]
+          }, {
+            "company": "VFR Sistemas",
+            "date": "Fev 2011 - Out 2011",
+            "position": "Suporte, Programador",
+            "activities": [
+              "Suporte a sistemas para equipamentos de exames laboratoriais",
+              "Programação de scripts para Bash de Linux",
+              "Programação em QT Creator (C++)",
+              "Administração de banco PostgreSQL"
+            ]
+          }, {
+            "company": "TheVelopers",
+            "date": "Jun 2010 - Jun 2011",
+            "position": "Programador",
+            "activities": [
+              "Grupo de estudo e desenvolvimento de jogos digitais na universidade",
+              "Um jogo publicado na App Store",
+              "Programação em C# e JavaScript com a engine Unity 3D"
+            ]
+          }, {
+            "company": "PMI-RS",
+            "date": "Set 2006 - Fev 2007",
+            "position": "Webdesigner",
+            "activities": [
+              "Manutenção do site do instituto e criação de componentes gráficos"
+            ]
+          }]
+        },
+        "skills": {
+          "title": "Habilidades"
+        },
+        "projects": {
+          "title": "Projetos"
+        }
       },
       "404": "A página não foi encontrada."
     }
