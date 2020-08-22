@@ -41,7 +41,7 @@ const Header = () => {
       </div>
       <div className={'sm:hidden inline-block uppercase text-white ' +
         'mt-3 mb-4 pb-1 pt-1 px-2 bg-gray-200 text-gray-800'}>
-        {headerLink ? t(headerLink.name) : '404'}
+        {headerLink ? t(`sessions.${headerLink.name}`) : '404'}
       </div>
     </div>
   );
