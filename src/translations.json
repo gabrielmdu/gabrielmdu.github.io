@@ -2,18 +2,24 @@
   "en": {
     "translations": {
       "title": "Software Developer",
-      "about": "About",
-      "xp": "Experience",
-      "skills": "Skills",
+      "sessions": {
+        "about": "About",
+        "xp": "Experience",
+        "skills": "Skills",
+        "projects": "Projects"
+      },
       "404": "The URL was not found."
     }
   },
   "pt": {
     "translations": {
       "title": "Desenvolvedor de Software",
-      "about": "Sobre",
-      "xp": "Experiência",
-      "skills": "Habilidades",
+      "sessions": {
+        "about": "Sobre",
+        "xp": "Experiência",
+        "skills": "Habilidades",
+        "projects": "Projetos"
+      },
       "404": "A página não foi encontrada."
     }
   }

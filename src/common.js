@@ -1,6 +1,7 @@
 import About from './components/content/About.js';
 import Experience from './components/content/Experience.js';
 import Skills from './components/content/Skills.js';
+import Projects from './components/content/Projects.js';
 import { ReactComponent as GitHubLogo } from './assets/img/github.svg';
 import { ReactComponent as LinkedInLogo } from './assets/img/linkedin.svg';
 import { ReactComponent as AboutLogo } from './assets/img/about.svg';
@@ -21,6 +22,11 @@ export const links = [{
   to: '/skills',
   component: Skills,
   name: 'skills',
+  icon: SkillsLogo
+}, {
+  to: '/projects',
+  component: Projects,
+  name: 'projects',
   icon: SkillsLogo
 }];
 
