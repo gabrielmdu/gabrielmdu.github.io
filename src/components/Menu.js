@@ -3,6 +3,7 @@ import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
 import { TranslationButtons } from './TranslationButtons.js';
 import { socialLinks, links } from '../common.js';
+import { ReactComponent as GsLogo } from '../assets/img/favicon.svg';
 
 const Menu = () => {
   const [isShown, setIsShown] = useState(false);
@@ -36,6 +37,9 @@ const Menu = () => {
             : '-translate-x-full no-shadow')
         }
       >
+        <div className="flex justify-center mt-4">
+          <GsLogo className={"w-16 h-16"} />
+        </div>
         <ul className="text-white text-xl menu-link">
           {links.map(e => (
             <li className="p-3 my-2" key={e.name}>
