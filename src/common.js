@@ -7,6 +7,7 @@ import { ReactComponent as LinkedInLogo } from './assets/img/linkedin.svg';
 import { ReactComponent as AboutLogo } from './assets/img/about.svg';
 import { ReactComponent as XpLogo } from './assets/img/xp.svg';
 import { ReactComponent as SkillsLogo } from './assets/img/skills.svg';
+import { ReactComponent as ProjectsLogo } from './assets/img/projects.svg';
 
 export const links = [{
   to: '/about',
@@ -27,7 +28,7 @@ export const links = [{
   to: '/projects',
   component: Projects,
   name: 'projects',
-  icon: SkillsLogo
+  icon: ProjectsLogo
 }];
 
 export const socialLinks = [{
