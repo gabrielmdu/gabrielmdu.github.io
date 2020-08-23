@@ -1,0 +1,31 @@
+$the-green: #30c300;
+$almost-green: #afe910;
+
+.projects {
+    a {
+        color: $the-green;
+    }
+
+    img {
+        height: unset;
+    }
+
+    .made-with {
+        span {
+            border: 1px solid $almost-green;
+            color: $almost-green;
+            padding: 2px 4px;
+        }
+    }
+
+    &:not(:last-child) {
+        &:after {
+            display: block;
+            content: "";
+            margin-top: 20px;
+            min-width: 300px;
+            background: linear-gradient(90deg, $the-green 23%, #00000000 90%);
+            height: 2px;
+        }
+    }
+}

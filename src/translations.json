@@ -80,7 +80,12 @@
           }
         },
         "projects": {
-          "title": "Projects"
+          "title": "Projects",
+          "madeWith": "Made with",
+          "sstDescription": "A Chrome extension that shows an informational tooltip when hovering a Steam store link.",
+          "warpgDescription": "A tool to make web-based RPG games with ASCII art.",
+          "siteName": "Personal Site",
+          "siteDescription": "My personal site with information about my career. This very site!"
         }
       },
       "404": "The URL was not found."
@@ -167,7 +172,12 @@
           }
         },
         "projects": {
-          "title": "Projetos"
+          "title": "Projetos",
+          "madeWith": "Feito com",
+          "sstDescription": "Extensão do Google Chrome que mostra um tooltip com informações de jogos do Steam ao passar o mouse em cima de seu link.",
+          "warpgDescription": "Ferramenta para fazer RPGs web com arte em ASCII.",
+          "siteName": "Site Pessoal",
+          "siteDescription": "Meu site pessoal com informações sobre carreira. Este site mesmo!"
         }
       },
       "404": "A página não foi encontrada."
