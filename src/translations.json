@@ -71,7 +71,13 @@
           }]
         },
         "skills": {
-          "title": "Skills"
+          "title": "Skills",
+          "prog": "Programming",
+          "tools": "Tools",
+          "languages": {
+            "title": "Languages",
+            "list": ["Portuguese (native)", "English (B2)", "Spanish (basic)"]
+          }
         },
         "projects": {
           "title": "Projects"
@@ -152,7 +158,13 @@
           }]
         },
         "skills": {
-          "title": "Habilidades"
+          "title": "Habilidades",
+          "prog": "Programação",
+          "tools": "Ferramentas",
+          "languages": {
+            "title": "Linguagens",
+            "list": ["Português (nativo)", "Inglês (B2)", "Espanhol (básico)"]
+          }
         },
         "projects": {
           "title": "Projetos"

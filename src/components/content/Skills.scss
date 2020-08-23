@@ -1,0 +1,15 @@
+$border-green: #468300;
+
+.skill-session {
+    border: 1px solid $border-green;
+
+    .skill-title {
+        background: $border-green;
+    }
+}
+
+span {
+    &.skill {
+        background: #56008c;
+    }
+}
