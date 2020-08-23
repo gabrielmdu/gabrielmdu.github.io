@@ -1,0 +1,21 @@
+.menu {
+    .menu-top-bar {
+        background: #0a000c;
+    }
+
+    .hidden-menu {
+        background: #150015;
+
+        a {
+            border-color: #6b0b47;
+        }
+    }
+
+    .menu-link {
+        font-family: 'Red Hat Display', sans-serif;
+    }
+
+    .menu-shadow {
+        box-shadow: 7px 7px 16px 0px black;
+    }
+}
