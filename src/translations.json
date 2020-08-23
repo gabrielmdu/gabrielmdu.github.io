@@ -11,7 +11,7 @@
           "jobs": [{
             "company": "Postmetria",
             "date": "Jun 2019 - Present",
-            "position": "Full-Stack Developer",
+            "position": "Full‑Stack Developer",
             "activities": [
               "SPA development of a customer relationship metric tool with React and PHP",
               "Node.js and Python scripts for routines and web microservices",
@@ -20,7 +20,7 @@
           }, {
             "company": "Judice Online",
             "date": "Mar 2018 - Jun 2019",
-            "position": "Full-Stack Developer",
+            "position": "Full‑Stack Developer",
             "activities": [
               "Development of a web app for law firms",
               "Programming with PHP, PostgreSQL, JS, CSS and HTML",
@@ -92,7 +92,7 @@
           "jobs": [{
             "company": "Postmetria",
             "date": "Jun 2019 - Presente",
-            "position": "Programador Full-Stack",
+            "position": "Programador Full‑Stack",
             "activities": [
               "Programação de SPA em React e PHP para ferramenta de medição de satisfação de consumidores",
               "Scripts em Node.js e Python para rotinas e microsserviços web",
@@ -101,7 +101,7 @@
           }, {
             "company": "Judice Online",
             "date": "Mar 2018 - Jun 2019",
-            "position": "Programador Full-Stack",
+            "position": "Programador Full‑Stack",
             "activities": [
               "Desenvolvimento de software web para escritórios de advocacia",
               "Programação com PHP e JavaScript, banco PostgreSQL",
