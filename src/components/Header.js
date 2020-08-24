@@ -2,11 +2,12 @@ import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { useLocation } from 'react-router-dom';
 import { TranslationButtons } from './TranslationButtons.js';
-import { socialLinks, links } from '../common.js';
+import { useSocialLinks, links } from '../common.js';
 
 const Header = () => {
   const [t, i18n] = useTranslation();
   const location = useLocation();
+  const socialLinks = useSocialLinks();
 
   const headerLink = links.filter(
     e => '/' + i18n.language + e.to === location.pathname
@@ -27,7 +28,7 @@ const Header = () => {
       </div>
 
       <div className="hidden sm:flex justify-end">
-        <div className="flex justify-around w-20 text-white">
+        <div className="flex justify-around w-32 text-white">
           {socialLinks.map(link =>
             <a
               key={link.name}

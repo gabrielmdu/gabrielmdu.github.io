@@ -2,13 +2,14 @@ import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
 import { TranslationButtons } from './TranslationButtons.js';
-import { socialLinks, links } from '../common.js';
+import { useSocialLinks, links } from '../common.js';
 import { ReactComponent as GsLogo } from '../assets/img/favicon.svg';
 import './Menu.scss';
 
 const Menu = () => {
   const [isShown, setIsShown] = useState(false);
   const [t, i18n] = useTranslation();
+  const socialLinks = useSocialLinks();
 
   return (
     // adapted from https://www.w3schools.com/howto/howto_css_menu_icon.asp

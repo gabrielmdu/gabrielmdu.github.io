@@ -8,6 +8,8 @@ import { ReactComponent as AboutLogo } from './assets/img/about.svg';
 import { ReactComponent as XpLogo } from './assets/img/xp.svg';
 import { ReactComponent as SkillsLogo } from './assets/img/skills.svg';
 import { ReactComponent as ProjectsLogo } from './assets/img/projects.svg';
+import { useTranslation } from 'react-i18next';
+import { ReactComponent as CvLogo } from './assets/img/cv.svg';
 
 export const links = [{
   to: '/about',
@@ -31,12 +33,20 @@ export const links = [{
   icon: ProjectsLogo
 }];
 
-export const socialLinks = [{
-  name: 'github',
-  href: 'https://www.github.com/gabrielmdu',
-  image: GitHubLogo
-}, {
-  name: 'linkedin',
-  href: 'https://www.linkedin.com/in/gabrielschulte',
-  image: LinkedInLogo
-}];
+export const useSocialLinks = () => {
+  const [t] = useTranslation();
+
+  return [{
+    name: 'github',
+    href: 'https://www.github.com/gabrielmdu',
+    image: GitHubLogo
+  }, {
+    name: 'linkedin',
+    href: 'https://www.linkedin.com/in/gabrielschulte',
+    image: LinkedInLogo
+  }, {
+    name: 'cv',
+    href: t('cvLink'),
+    image: CvLogo
+  }];
+};
