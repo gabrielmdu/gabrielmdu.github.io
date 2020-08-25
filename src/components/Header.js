@@ -28,7 +28,7 @@ const Header = () => {
       </div>
 
       <div className="hidden sm:flex justify-end">
-        <div className="flex justify-around w-32 text-white">
+        <div className="flex justify-around w-32 text-gray-200">
           {socialLinks.map(link =>
             <a
               key={link.name}
@@ -40,7 +40,7 @@ const Header = () => {
             </a>)}
         </div>
       </div>
-      <div className={'sm:hidden inline-block uppercase text-white ' +
+      <div className={'sm:hidden inline-block uppercase text-gray-200 ' +
         'mt-3 mb-4 pb-1 pt-1 px-2 bg-gray-200 text-gray-800'}>
         {headerLink ? t(`sessions.${headerLink.name}.title`) : '404'}
       </div>

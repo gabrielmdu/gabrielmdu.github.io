@@ -15,7 +15,7 @@ import Gs404 from './404.js';
 const Content = () => {
   const [, i18n] = useTranslation();
 
-  const classes = "text-white mx-8 mb-6 sm:mx-10 md:mx-16 lg:mx-32 xl:mx-64";
+  const classes = "text-gray-200 mx-8 mb-6 sm:mx-10 md:mx-16 lg:mx-32 xl:mx-64";
 
   return [
     <Route key={'home'} exact path="/">

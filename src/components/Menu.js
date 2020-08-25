@@ -42,7 +42,7 @@ const Menu = () => {
         <div className="flex justify-center mt-4">
           <GsLogo className={"w-16 h-16"} />
         </div>
-        <ul className="text-white text-xl menu-link">
+        <ul className="text-gray-200 text-xl menu-link">
           {links.map(e => (
             <li className="p-3 my-2" key={e.name}>
               <Link

@@ -14,7 +14,7 @@ export const TranslationButtons = ({ smHidden }) => {
   return (
     <div className={(smHidden ? 'sm:hidden flex' : 'hidden sm:flex') +
       ' justify-end'}>
-      <div className="flex justify-around w-20 text-white">
+      <div className="flex justify-around w-20 text-gray-200">
         {availableTranslations.map(trans =>
           <Link
             key={trans}
