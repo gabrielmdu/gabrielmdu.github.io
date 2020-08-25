@@ -14,7 +14,7 @@ const Menu = () => {
   return (
     // adapted from https://www.w3schools.com/howto/howto_css_menu_icon.asp
     <div className="gs-menu">
-      <div className="gs-menu-top-bar fixed inset-0 sm:hidden m-0 p-0 w-full h-12">
+      <div className="gs-menu-top-bar fixed top-0 sm:hidden m-0 p-0 w-full h-12">
         <div
           className={
             'absolute inline-flex flex-col justify-between ml-2 mt-2 h-8 w-10 cursor-pointer ' +
