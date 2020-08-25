@@ -12,17 +12,17 @@
         .gs-change {
 
             /* Rotate first bar */
-            &.gs-bar1 {
+            .gs-bar1 {
                 transform: rotate(-38deg) translate(-10px, 8px);
             }
 
             /* Fade out the second bar */
-            &.gs-bar2 {
+            .gs-bar2 {
                 opacity: 0;
             }
 
             /* Rotate last bar */
-            &.gs-bar3 {
+            .gs-bar3 {
                 transform: rotate(38deg) translate(-8px, -8px);
             }
         }
