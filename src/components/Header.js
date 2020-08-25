@@ -22,11 +22,11 @@ const Header = () => {
           Gabriel Schulte
         </span>
         <div className="flex items-center justify-center">
-          <div className="flex-grow box w-auto mx-3" />
+          <div className="flex-grow gs-box w-auto mx-3" />
           <span className="flex-shrink-0 gs-subtitle text-orange-500">
             {t('title')}
           </span>
-          <div className="flex-grow box w-auto mx-3" />
+          <div className="flex-grow gs-box w-auto mx-3" />
         </div>
 
         <div className="hidden sm:flex justify-end">
