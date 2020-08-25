@@ -35,17 +35,20 @@ const Content = () => {
 
 const App = () => {
   return (
-    <Router>
-      <div className="container mx-auto">
-        <Menu />
-        <Header />
+    <>
+      <div id="gs-background" />
+      <Router>
+        <div className="container mx-auto">
+          <Menu />
+          <Header />
 
-        <GsLinks />
-        <Switch>
-          {Content()}
-        </Switch>
-      </div>
-    </Router>
+          <GsLinks />
+          <Switch>
+            {Content()}
+          </Switch>
+        </div>
+      </Router>
+    </>
   );
 };
 
