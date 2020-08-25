@@ -4,7 +4,12 @@
       "title": "Software Developer",
       "sessions": {
         "about": {
-          "title": "About"
+          "title": "About",
+          "paragraphs": [
+            "Software developer with <strong>9+ of work experience</strong>. I'm graduated as a Games Development technologist. I started my career programming for desktops, and today I work with web full-stack development.",
+            "I'm Brazilian, I live and work in my home country, but I want to try opportunities abroad. I have <strong>German citizenship and passport</strong>, which makes it easier to accomplish my goal.",
+            "I always try to <strong>update my knowledge</strong> in software development technology to <strong>improve my skills</strong>. I consider <strong>continuous learning</strong> my great virtue, not only professionally, but also in other life aspects. My main goal, aside from career growing, is to be certain I did a well-done job, and that I did my best to achieve it."
+          ]
         },
         "xp": {
           "title": "Experience",
@@ -97,7 +102,12 @@
       "title": "Desenvolvedor de Software",
       "sessions": {
         "about": {
-          "title": "Sobre"
+          "title": "Sobre",
+          "paragraphs": [
+            "Desenvolvedor de software com <strong>mais de 9 anos de experiência</strong> no mercado. Tenho graduação tecnológica em Jogos Digitais. Iniciei minha carreira com programação para desktop, e hoje trabalho com desenvolvimento full-stack para web.",
+            "Sou brasileiro, moro e trabalho no meu país natal, mas quero conhecer outras oportunidades fora do país. Possuo <strong>cidadania e passaporte alemães</strong>, o que facilita minha pretensão, caso ocorra.",
+            "Procuro sempre <strong>atualizar meus conhecimentos</strong> em tecnologia de desenvolvimento e <strong>aprimorar minhas habilidades</strong>. Considero o <strong>aprendizado contínuo</strong> minha maior virtude, não só na área profissional, mas também em outros aspectos da vida. Meu objetivo, além de crescimento na carreira, é de estar com a consciência tranquila de que meu trabalho foi bem feito e que me esforcei ao máximo para isso."
+          ]
         },
         "xp": {
           "title": "Experiência",

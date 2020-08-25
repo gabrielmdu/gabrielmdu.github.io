@@ -1,0 +1,11 @@
+.about {
+    .pic-wrapper {
+        @media (min-width: 640px) {
+            flex-basis: 13em;
+        }
+    }
+
+    p:not(:last-child) {
+        margin-bottom: 10px;
+    }
+}
