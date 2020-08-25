@@ -15,7 +15,7 @@ const Header = () => {
   )[0];
 
   return (
-    <div className="gs-header">
+    <div className="gs-header mt-16 sm:mt-0">
       <div className="gs-name-wrap w-4/5 lg:w-6/12 md:w-2/3 text-center mx-auto mt-3 md:mt-5">
         <TranslationButtons smHidden={false} />
         <span className="gs-block gs-name text-4xl md:text-5xl lg:text-6xl leading-none text-gray-200">

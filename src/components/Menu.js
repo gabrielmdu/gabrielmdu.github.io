@@ -14,7 +14,6 @@ const Menu = () => {
   return (
     // adapted from https://www.w3schools.com/howto/howto_css_menu_icon.asp
     <div className="gs-menu">
-      <div className="sm:hidden m-0 p-0 h-12" />
       <div className="gs-menu-top-bar fixed inset-0 sm:hidden m-0 p-0 w-full h-12">
         <div
           className={
