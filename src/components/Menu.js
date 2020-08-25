@@ -13,19 +13,19 @@ const Menu = () => {
 
   return (
     // adapted from https://www.w3schools.com/howto/howto_css_menu_icon.asp
-    <div className="menu">
+    <div className="gs-menu">
       <div className="sm:hidden m-0 p-0 h-12" />
-      <div className="menu-top-bar fixed inset-0 sm:hidden m-0 p-0 w-full h-12">
+      <div className="gs-menu-top-bar fixed inset-0 sm:hidden m-0 p-0 w-full h-12">
         <div
           className={
             'absolute inline-flex flex-col justify-between ml-2 mt-2 h-8 w-10 cursor-pointer ' +
-            (isShown ? 'change' : '')
+            (isShown ? 'gs-change' : '')
           }
           onClick={() => setIsShown(!isShown)}
         >
-          <div className="bar1 h-2" />
-          <div className="bar2 h-2" />
-          <div className="bar3 h-2" />
+          <div className="gs-bar1 h-2" />
+          <div className="gs-bar2 h-2" />
+          <div className="gs-bar3 h-2" />
         </div>
         <div className="flex items-center h-full inline-block float-right mr-6">
           <TranslationButtons smHidden />
@@ -33,16 +33,16 @@ const Menu = () => {
       </div>
       <div
         className={
-          'hidden-menu sm:hidden fixed h-screen transition transform duration-500 ease-in-out top-12 w-64 ' +
+          'gs-hidden-menu sm:hidden fixed h-screen transition transform duration-500 ease-in-out gs-top-12 w-64 ' +
           (isShown
-            ? 'translate-x-0 menu-shadow'
+            ? 'translate-x-0 gs-menu-shadow'
             : '-translate-x-full no-shadow')
         }
       >
         <div className="flex justify-center mt-4">
           <GsLogo className={"w-16 h-16"} />
         </div>
-        <ul className="text-gray-200 text-xl menu-link">
+        <ul className="text-gray-200 text-xl gs-menu-link">
           {links.map(e => (
             <li className="p-3 my-2" key={e.name}>
               <Link

@@ -1,7 +1,7 @@
 $the-green: #30c300;
 $almost-green: #afe910;
 
-.projects {
+.gs-projects {
     a {
         color: $the-green;
     }
@@ -10,7 +10,7 @@ $almost-green: #afe910;
         height: unset;
     }
 
-    .made-with {
+    .gs-made-with {
         span {
             border: 1px solid $almost-green;
             color: $almost-green;

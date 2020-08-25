@@ -1,9 +1,34 @@
-.menu {
-    .menu-top-bar {
+.gs-menu {
+    .gs-menu-top-bar {
         background: #0a000c;
+
+        .gs-bar1,
+        .gs-bar2,
+        .gs-bar3 {
+            background-color: rgb(185, 185, 185);
+            transition: 0.1s;
+        }
+
+        .gs-change {
+
+            /* Rotate first bar */
+            &.gs-bar1 {
+                transform: rotate(-38deg) translate(-10px, 8px);
+            }
+
+            /* Fade out the second bar */
+            &.gs-bar2 {
+                opacity: 0;
+            }
+
+            /* Rotate last bar */
+            &.gs-bar3 {
+                transform: rotate(38deg) translate(-8px, -8px);
+            }
+        }
     }
 
-    .hidden-menu {
+    .gs-hidden-menu {
         background: #150015;
 
         a {
@@ -11,11 +36,15 @@
         }
     }
 
-    .menu-link {
+    .gs-menu-link {
         font-family: 'Red Hat Display', sans-serif;
     }
 
-    .menu-shadow {
+    .gs-menu-shadow {
         box-shadow: 7px 7px 16px 0px black;
+    }
+
+    .gs-top-12 {
+        top: 3rem;
     }
 }

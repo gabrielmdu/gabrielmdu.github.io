@@ -28,7 +28,7 @@ const Skills = ({ classes }) => {
       'Redmine',
       'GIMP',
       'Inkscape'],
-      image: ToolsLogo
+    image: ToolsLogo
   }, {
     title: t('sessions.skills.languages.title'),
     skills: t('sessions.skills.languages.list', { returnObjects: true }),
@@ -38,14 +38,14 @@ const Skills = ({ classes }) => {
   return (
     <div className={classes}>
       {skillSessions.map((s, i) =>
-        <div key={i} className="skill-session mb-5">
-          <div className="skill-title flex items-center px-2 py-1">
+        <div key={i} className="gs-skills mb-5">
+          <div className="gs-skill-title flex items-center px-2 py-1">
             <s.image className="inline-block mr-1 fill-current text-gray-200" />{s.title}
           </div>
           <div className="flex flex-wrap pt-2 pl-2">
             {s.skills.map((p, i) =>
               <div key={i} className="pb-2 pr-2">
-                <span className="skill rounded-full text-sm px-2 py-1">{p}</span>
+                <span className="gs-skill rounded-full text-sm px-2 py-1">{p}</span>
               </div>)}
           </div>
         </div>)}

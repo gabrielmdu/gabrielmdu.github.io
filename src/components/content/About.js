@@ -10,8 +10,8 @@ const About = ({ classes }) => {
 
   return (
     <div className={classes}>
-      <div className="about flex flex-col sm:flex-row w-full">
-        <div className="pic-wrapper flex-grow-0 mb-4 sm:mb-0 sm:mr-4">
+      <div className="gs-about flex flex-col sm:flex-row w-full">
+        <div className="gs-pic-wrapper flex-grow-0 mb-4 sm:mb-0 sm:mr-4">
           <img
             className="rounded-full border-2 p-1 border-gray-600 mx-auto w-48 sm:w-auto"
             src={gsPic}

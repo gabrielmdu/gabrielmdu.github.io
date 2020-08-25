@@ -1,15 +1,15 @@
 $border-green: #468300;
 
-.skill-session {
+.gs-skills {
     border: 1px solid $border-green;
 
-    .skill-title {
+    .gs-skill-title {
         background: $border-green;
     }
 }
 
 span {
-    &.skill {
+    &.gs-skill {
         background: #56008c;
     }
 }

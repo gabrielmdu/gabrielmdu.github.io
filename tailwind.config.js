@@ -1,8 +1,12 @@
 module.exports = {
-  purge: [
-    './src/*.js',
-    './public/index.html'
-  ],
+  purge: {
+    content: [
+      './src/*.js',
+      './src/**/*.js',
+      './public/index.html'
+    ],
+    whitelistPatterns: [/gs-/]
+  },
   theme: {
     extend: {},
   },

@@ -32,7 +32,7 @@ const Projects = ({ classes }) => {
   return (
     <div className={classes}>
       {projs.map((p, i) =>
-        <div key={i} className="projects mb-6">
+        <div key={i} className="gs-projects mb-6">
           <a
             className="underline"
             href={p.link}
@@ -48,7 +48,7 @@ const Projects = ({ classes }) => {
               alt={p.imageAlt}
               width={p.imageWidth}
             />}
-          <div className="flex items-center made-with mt-3 text-sm">
+          <div className="flex items-center gs-made-with mt-3 text-sm">
             <div className="mr-2">
               {t('sessions.projects.madeWith')}:
             </div>
