@@ -11,6 +11,7 @@ import Header from './Header.js';
 import Menu from './Menu.js';
 import GsLinks from './Link.js';
 import Gs404 from './404.js';
+import ScrollToTop from './ScrollToTop.js';
 
 const Content = () => {
   const [, i18n] = useTranslation();
@@ -39,6 +40,7 @@ const App = () => {
       <div id="gs-background" />
       <Router>
         <div className="container mx-auto">
+          <ScrollToTop />
           <Menu />
           <Header />
 
