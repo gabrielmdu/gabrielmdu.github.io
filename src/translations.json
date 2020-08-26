@@ -69,7 +69,7 @@
           }, {
             "company": "PMI-RS",
             "date": "Sep 2006 - Feb 2007",
-            "position": "Webdesigner",
+            "position": "Web designer",
             "activities": [
               "Institute's site management and graphic components creation"
             ]
@@ -167,7 +167,7 @@
           }, {
             "company": "PMI-RS",
             "date": "Set 2006 - Fev 2007",
-            "position": "Webdesigner",
+            "position": "Web designer",
             "activities": [
               "Manutenção do site do instituto e criação de componentes gráficos"
             ]
@@ -186,7 +186,7 @@
           "title": "Projetos",
           "madeWith": "Feito com",
           "sstDescription": "Extensão do Google Chrome que mostra um tooltip com informações de jogos do Steam ao passar o mouse em cima de seu link.",
-          "warpgDescription": "Ferramenta para fazer RPGs web com arte em ASCII.",
+          "warpgDescription": "Ferramenta para fazer jogos RPG para web com arte em ASCII.",
           "siteName": "Site Pessoal",
           "siteDescription": "Meu site pessoal com informações sobre carreira. Este site mesmo!"
         }

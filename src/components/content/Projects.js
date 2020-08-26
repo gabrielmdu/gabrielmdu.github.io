@@ -21,12 +21,12 @@ const Projects = ({ classes }) => {
     imageAlt: 'WARPG sample',
     imageWidth: '400',
     description: t('sessions.projects.warpgDescription'),
-    madeWith: ['PHP', 'Laravel', 'React', 'SCSS']
+    madeWith: ['PHP', 'Laravel', 'React', 'MongoDB', 'SCSS']
   }, {
     title: t('sessions.projects.siteName'),
     link: 'https://github.com/gabrielmdu/gabrielmdu.github.io',
     description: t('sessions.projects.siteDescription'),
-    madeWith: ['React', 'SCSS']
+    madeWith: ['React', 'Tailwind', 'i18next', 'SCSS']
   }];
 
   return (
