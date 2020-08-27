@@ -45,7 +45,9 @@ const Skills = ({ classes }) => {
           <div className="flex flex-wrap pt-2 pl-2">
             {s.skills.map((p, i) =>
               <div key={i} className="pb-2 pr-2">
-                <span className="gs-skill rounded-full text-sm px-2 py-1">{p}</span>
+                <span className="gs-skill block relative overflow-hidden leading-4 rounded-full text-sm px-2 py-1">
+                  {p}
+                </span>
               </div>)}
           </div>
         </div>)}

@@ -32,7 +32,8 @@ const Menu = () => {
       </div>
       <div
         className={
-          'gs-hidden-menu sm:hidden fixed h-screen transition transform duration-500 ease-in-out gs-top-12 w-64 ' +
+          'gs-hidden-menu sm:hidden fixed h-screen transition transform ' +
+          'duration-500 ease-in-out gs-top-12 w-64 z-50 ' +
           (isShown
             ? 'translate-x-0 gs-menu-shadow'
             : '-translate-x-full no-shadow')

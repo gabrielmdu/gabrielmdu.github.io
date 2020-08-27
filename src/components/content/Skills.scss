@@ -6,10 +6,45 @@ $border-green: #468300;
     .gs-skill-title {
         background: $border-green;
     }
-}
 
-span {
-    &.gs-skill {
+    .gs-skill {
         background: #56008c;
+
+        // adapted from https://stackoverflow.com/a/34094733
+        &:after {
+            animation-name: shine;
+            animation-delay: 0.5s;
+            animation-duration: 2s;
+            animation-fill-mode: forwards;
+            content: "";
+            position: absolute;
+            top: -390%;
+            left: -200%;
+            width: 200%;
+            height: 500%;
+            opacity: 0;
+            transform: rotate(30deg);
+
+            background: rgba(255, 255, 255, 0.13);
+            background: linear-gradient(to right,
+                    rgba(255, 255, 255, 0) 0%,
+                    rgba(255, 255, 255, 0.13) 77%,
+                    rgba(255, 255, 255, 0.3) 92%,
+                    rgba(255, 255, 255, 0) 100%);
+        }
+
+        @keyframes shine {
+            0% {
+                opacity: 1;
+                transition-property: opacity;
+            }
+
+            100% {
+                opacity: 0;
+                top: 200%;
+                left: 400%;
+                transition-property: left, top, opacity;
+            }
+        }
     }
 }
