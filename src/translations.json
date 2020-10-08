@@ -18,6 +18,7 @@
             "location": "Porto Alegre, Brazil",
             "date": "Jun 2019 - Present",
             "position": "Full‑Stack Developer",
+            "summary": "Working on a big data web app that measures costumer satisfaction with AI and lots of data collection from different sources.",
             "activities": [
               "SPA development in React and PHP with extensive creation and integration of own and third party REST APIs.",
               "Back-end unit test code coverage.",
@@ -29,6 +30,7 @@
             "location": "Porto Alegre, Brazil",
             "date": "Mar 2018 - Jun 2019",
             "position": "Full‑Stack Developer",
+            "summary": "Worked on a web app for law offices management, including lawsuits and hearings monitoring.",
             "activities": [
               "PHP with MVC pattern, and jQuery with Bootstrap.",
               "Legal data integration with third party APIs and scraping of websites.",
@@ -40,6 +42,7 @@
             "location": "Porto Alegre, Brazil",
             "date": "Feb 2012 - Mar 2018",
             "position": "Software Engineer",
+            "summary": "Software engineering focused on desktop and web applications for building automation.",
             "activities": [
               "Development of a bulding energy management software suite.",
               "Development of a logic visual programmer with draggable blocks, including its linker, compiler and debugger.",
@@ -53,6 +56,7 @@
             "location": "Porto Alegre, Brazil",
             "date": "Feb 2011 - Oct 2011",
             "position": "Support, Programmer",
+            "summary": "Support on and programming for systems integrated with lab test equipments.",
             "activities": [
               "Direct support for clients.",
               "Search, analyse and identify system problems.",
@@ -64,6 +68,7 @@
             "location": "São Leopoldo, Brazil",
             "date": "Jun 2010 - Jun 2011",
             "position": "Programmer",
+            "summary": "University group for games development on the iOS.",
             "activities": [
               "C# and JavaScript programming with Unity 3D engine.",
               "One game released on the App Store."
@@ -73,6 +78,7 @@
             "location": "Porto Alegre, Brazil",
             "date": "Sep 2006 - Feb 2007",
             "position": "Web designer",
+            "summary": "",
             "activities": [
               "Institute's site management and graphic components creation."
             ]
@@ -119,6 +125,7 @@
             "location": "Porto Alegre, Brasil",
             "date": "Jun 2019 - Presente",
             "position": "Programador Full‑Stack",
+            "summary": "",
             "activities": [
               "Programação de SPA em React e PHP para ferramenta de medição de satisfação de consumidores",
               "Scripts em Node.js e Python para rotinas e microsserviços web",
@@ -129,6 +136,7 @@
             "location": "Porto Alegre, Brasil",
             "date": "Mar 2018 - Jun 2019",
             "position": "Programador Full‑Stack",
+            "summary": "",
             "activities": [
               "Desenvolvimento de software web para escritórios de advocacia",
               "Programação com PHP e JavaScript, banco PostgreSQL",
@@ -139,6 +147,7 @@
             "location": "Porto Alegre, Brasil",
             "date": "Fev 2012 - Mar 2018",
             "position": "Projetista de software",
+            "summary": "",
             "activities": [
               "Projeção e desenvolvimento de softwares desktop e web para automação predial",
               "Criação de uma suíte de gestão predial de insumos de energia",
@@ -156,6 +165,7 @@
             "location": "Porto Alegre, Brasil",
             "date": "Fev 2011 - Out 2011",
             "position": "Suporte, Programador",
+            "summary": "",
             "activities": [
               "Suporte a sistemas para equipamentos de exames laboratoriais",
               "Programação de scripts para Bash de Linux",
@@ -167,6 +177,7 @@
             "location": "São Leopoldo, Brasil",
             "date": "Jun 2010 - Jun 2011",
             "position": "Programador",
+            "summary": "",
             "activities": [
               "Grupo de estudo e desenvolvimento de jogos digitais na universidade",
               "Um jogo publicado na App Store",
@@ -177,6 +188,7 @@
             "location": "Porto Alegre, Brasil",
             "date": "Set 2006 - Fev 2007",
             "position": "Web designer",
+            "summary": "",
             "activities": [
               "Manutenção do site do instituto e criação de componentes gráficos"
             ]
