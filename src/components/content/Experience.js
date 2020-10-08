@@ -16,6 +16,7 @@ const Experience = ({ classes }) => {
             <div className="text-xs sm:text-base">{j.date}</div>
           </div>
           <div className="italic">{j.company}</div>
+          <div className="text-xs">{j.location}</div>
           <ul className="gs-activities mt-4">
             {j.activities.map((a, i) => <li key={i} className="mb-1">{a}</li>)}
           </ul>

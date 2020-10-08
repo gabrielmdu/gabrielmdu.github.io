@@ -15,6 +15,7 @@
           "title": "Experience",
           "jobs": [{
             "company": "Postmetria",
+            "location": "Porto Alegre, Brazil",
             "date": "Jun 2019 - Present",
             "position": "Full‑Stack Developer",
             "activities": [
@@ -25,6 +26,7 @@
             ]
           }, {
             "company": "Judice Online",
+            "location": "Porto Alegre, Brazil",
             "date": "Mar 2018 - Jun 2019",
             "position": "Full‑Stack Developer",
             "activities": [
@@ -35,6 +37,7 @@
             ]
           }, {
             "company": "BRS Sistemas Eletrônicos",
+            "location": "Porto Alegre, Brazil",
             "date": "Feb 2012 - Mar 2018",
             "position": "Software Engineer",
             "activities": [
@@ -47,6 +50,7 @@
             ]
           }, {
             "company": "VFR Sistemas",
+            "location": "Porto Alegre, Brazil",
             "date": "Feb 2011 - Oct 2011",
             "position": "Support, Programmer",
             "activities": [
@@ -57,6 +61,7 @@
             ]
           }, {
             "company": "TheVelopers",
+            "location": "São Leopoldo, Brazil",
             "date": "Jun 2010 - Jun 2011",
             "position": "Programmer",
             "activities": [
@@ -65,6 +70,7 @@
             ]
           }, {
             "company": "PMI-RS",
+            "location": "Porto Alegre, Brazil",
             "date": "Sep 2006 - Feb 2007",
             "position": "Web designer",
             "activities": [
@@ -110,6 +116,7 @@
           "title": "Experiência",
           "jobs": [{
             "company": "Postmetria",
+            "location": "Porto Alegre, Brasil",
             "date": "Jun 2019 - Presente",
             "position": "Programador Full‑Stack",
             "activities": [
@@ -119,6 +126,7 @@
             ]
           }, {
             "company": "Judice Online",
+            "location": "Porto Alegre, Brasil",
             "date": "Mar 2018 - Jun 2019",
             "position": "Programador Full‑Stack",
             "activities": [
@@ -128,6 +136,7 @@
             ]
           }, {
             "company": "BRS Sistemas Eletrônicos",
+            "location": "Porto Alegre, Brasil",
             "date": "Fev 2012 - Mar 2018",
             "position": "Projetista de software",
             "activities": [
@@ -144,6 +153,7 @@
             ]
           }, {
             "company": "VFR Sistemas",
+            "location": "Porto Alegre, Brasil",
             "date": "Fev 2011 - Out 2011",
             "position": "Suporte, Programador",
             "activities": [
@@ -154,6 +164,7 @@
             ]
           }, {
             "company": "TheVelopers",
+            "location": "São Leopoldo, Brasil",
             "date": "Jun 2010 - Jun 2011",
             "position": "Programador",
             "activities": [
@@ -163,6 +174,7 @@
             ]
           }, {
             "company": "PMI-RS",
+            "location": "Porto Alegre, Brasil",
             "date": "Set 2006 - Fev 2007",
             "position": "Web designer",
             "activities": [
