@@ -18,60 +18,57 @@
             "date": "Jun 2019 - Present",
             "position": "Full‑Stack Developer",
             "activities": [
-              "SPA development of a customer relationship metric tool with React and PHP",
-              "Node.js and Python scripts for routines and web microservices",
-              "Docker containers environment, MySQL and Elasticsearch"
+              "SPA development in React and PHP with extensive creation and integration of own and third party REST APIs.",
+              "Back-end unit test code coverage.",
+              "Python automation scripts and microservice using Flask.",
+              "Docker containers environment, MySQL for persistent data and Elasticsearch for full text search."
             ]
           }, {
             "company": "Judice Online",
             "date": "Mar 2018 - Jun 2019",
             "position": "Full‑Stack Developer",
             "activities": [
-              "Development of a web app for law firms",
-              "Programming with PHP, PostgreSQL, JS, CSS and HTML",
-              "Diverse Python routine scripts"
+              "PHP with MVC pattern, and jQuery with Bootstrap.",
+              "Legal data integration with third party APIs and scraping of websites.",
+              "Diverse Python routine scripts, including data migration between databases and e-mail management.",
+              "PostgreSQL schemas creation and maintenance."
             ]
           }, {
             "company": "BRS Sistemas Eletrônicos",
             "date": "Feb 2012 - Mar 2018",
             "position": "Software Engineer",
             "activities": [
-              "Software engineering focused on desktop and web applications for building automation",
-              "Development of a bulding energy management software suite",
-              "Development of a logic visual programmer with draggable blocks, including its linker, compiler and debugger",
-              "Development of many tools for electronic equipment setups",
-              "Code improvement and performance optimization",
-              "DLLs creation",
-              "Database structure creation, update and maintenance",
-              "Desktop development with C++",
-              "Web development with JavaScript, HTML, CSS/SCSS, JSON and XML",
-              "Desktop and web user interface design"
+              "Development of a bulding energy management software suite.",
+              "Development of a logic visual programmer with draggable blocks, including its linker, compiler and debugger.",
+              "Development of many tools for electronic equipment setups.",
+              "Database structure creation, update and maintenance.",
+              "Desktop development in C++",
+              "Web development in PHP, JavaScript (vanilla and jQuery), HTML, CSS/SCSS, JSON and XML."
             ]
           }, {
             "company": "VFR Sistemas",
             "date": "Feb 2011 - Oct 2011",
             "position": "Support, Programmer",
             "activities": [
-              "Support on systems for lab test equipments",
-              "Bash script programming",
-              "Qt Creator programming (C++)",
-              "PostgreSQL DB administration"
+              "Direct support for clients.",
+              "Search, analyse and identify system problems.",
+              "Qt Creator (C++) programming for software aimed at showing and collecting lab equipments data, like test results.",
+              "Bash script programming."
             ]
           }, {
             "company": "TheVelopers",
             "date": "Jun 2010 - Jun 2011",
             "position": "Programmer",
             "activities": [
-              "University group for games development on the iOS",
-              "One game released on the App Store",
-              "C# and JavaScript programming with Unity 3D engine"
+              "C# and JavaScript programming with Unity 3D engine.",
+              "One game released on the App Store."
             ]
           }, {
             "company": "PMI-RS",
             "date": "Sep 2006 - Feb 2007",
             "position": "Web designer",
             "activities": [
-              "Institute's site management and graphic components creation"
+              "Institute's site management and graphic components creation."
             ]
           }]
         },
