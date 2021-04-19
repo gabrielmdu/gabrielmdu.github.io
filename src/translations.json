@@ -7,18 +7,29 @@
           "title": "About",
           "paragraphs": [
             "Software developer with <strong>9+ of work experience</strong>. I'm graduated as a Games Development technologist. I started my career programming for desktops, and today I work with web full-stack development.",
-            "I'm Brazilian, I live and work in my home country, but I want to try opportunities abroad. I have <strong>German citizenship and passport</strong>, which makes it easier to accomplish my goal.",
+            "I was born in Brazil and have <strong>Brazilian and German double citizenship</strong>. Currently I'm based in Tallinn, Estonia.",
             "I always try to <strong>update my knowledge</strong> in software development technology to <strong>improve my skills</strong>. I consider <strong>continuous learning</strong> my great virtue, not only professionally, but also in other life aspects. My main goal, aside from career growing, is to be certain I did a well-done job, and that I did my best to achieve it."
           ]
         },
         "xp": {
           "title": "Experience",
           "jobs": [{
+            "company": "Bevira",
+            "location": "Tallinn, Estonia",
+            "date": "Jan 2021 - Present",
+            "position": "Full‑Stack Developer",
+            "summary": "Working on a web app for business processes automation.",
+            "activities": [
+              "PHP and JS Implementation of new automation tasks based on client demands.",
+              "Integration with third party APIs.",
+              "Back-end unit test code coverage."
+            ]
+          }, {
             "company": "Postmetria",
             "location": "Porto Alegre, Brazil",
-            "date": "Jun 2019 - Present",
+            "date": "Jun 2019 - Dec 2020",
             "position": "Full‑Stack Developer",
-            "summary": "Working on a big data web app that measures costumer satisfaction with AI and lots of data collection from different sources.",
+            "summary": "Worked on a big data web app that measures costumer satisfaction with AI and lots of data collection from different sources.",
             "activities": [
               "SPA development in React and PHP with extensive creation and integration of own and third party REST APIs.",
               "Back-end unit test code coverage.",
@@ -48,7 +59,7 @@
               "Development of a logic visual programmer with draggable blocks, including its linker, compiler and debugger.",
               "Development of many tools for electronic equipment setups.",
               "Database structure creation, update and maintenance.",
-              "Desktop development in C++",
+              "Desktop development in C++.",
               "Web development in PHP, JavaScript (vanilla and jQuery), HTML, CSS/SCSS, JSON and XML."
             ]
           }, {
@@ -114,18 +125,29 @@
           "title": "Sobre",
           "paragraphs": [
             "Desenvolvedor de software com <strong>mais de 9 anos de experiência</strong> no mercado. Tenho graduação tecnológica em Jogos Digitais. Iniciei minha carreira com programação para desktop, e hoje trabalho com desenvolvimento full-stack para web.",
-            "Sou brasileiro, moro e trabalho no meu país natal, mas quero conhecer outras oportunidades fora do país. Possuo <strong>cidadania e passaporte alemães</strong>, o que facilita minha pretensão, caso ocorra.",
+            "Nasci no Brasil e tenho <strong>dupla cidadania Brasileira e Alemã</strong>. Atualmente moro e trabalho em Tallinn, Estônia.",
             "Procuro sempre <strong>atualizar meus conhecimentos</strong> em tecnologia de desenvolvimento e <strong>aprimorar minhas habilidades</strong>. Considero o <strong>aprendizado contínuo</strong> minha maior virtude, não só na área profissional, mas também em outros aspectos da vida. Meu objetivo, além de crescimento na carreira, é de estar com a consciência tranquila de que meu trabalho foi bem feito e que me esforcei ao máximo para isso."
           ]
         },
         "xp": {
           "title": "Experiência",
           "jobs": [{
+            "company": "Bevira",
+            "location": "Tallinn, Estônia",
+            "date": "Jan 2021 - Present",
+            "position": "Full‑Stack Developer",
+            "summary": "Desenvolvimento de aplicação web para automação de processos de negócios.",
+            "activities": [
+              "Desenvolvimento com PHP e JS para novas rotinas de automação conforme demanda de clientes.",
+              "Integração com APIs de terceiros",
+              "Testes unitários em back-end."
+            ]
+          }, {
             "company": "Postmetria",
             "location": "Porto Alegre, Brasil",
-            "date": "Jun 2019 - Presente",
+            "date": "Jun 2019 - Dez 2020",
             "position": "Programador Full‑Stack",
-            "summary": "",
+            "summary": "Desenvolvimento de um aplicativo web de big data que mede a satisfação de consumidores com IA e extensa coleta de dados de diversas fontes.",
             "activities": [
               "Programação de SPA em React e PHP para ferramenta de medição de satisfação de consumidores",
               "Scripts em Node.js e Python para rotinas e microsserviços web",
@@ -136,7 +158,7 @@
             "location": "Porto Alegre, Brasil",
             "date": "Mar 2018 - Jun 2019",
             "position": "Programador Full‑Stack",
-            "summary": "",
+            "summary": "Desenvolvimento de aplicação web para gerenciamento de escritórios de advocacia, incluindo monitoramento de processos e audiências.",
             "activities": [
               "Desenvolvimento de software web para escritórios de advocacia",
               "Programação com PHP e JavaScript, banco PostgreSQL",
@@ -147,7 +169,7 @@
             "location": "Porto Alegre, Brasil",
             "date": "Fev 2012 - Mar 2018",
             "position": "Projetista de software",
-            "summary": "",
+            "summary": "Engenharia de software para aplicações web e desktop voltada para automação predial.",
             "activities": [
               "Projeção e desenvolvimento de softwares desktop e web para automação predial",
               "Criação de uma suíte de gestão predial de insumos de energia",
