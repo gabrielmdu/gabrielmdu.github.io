@@ -6,8 +6,8 @@
         "about": {
           "title": "About",
           "paragraphs": [
-            "Software developer with <strong>9+ of work experience</strong>. I'm graduated as a Games Development technologist. I started my career programming for desktops, and today I work with web full-stack development.",
-            "I was born in Brazil and have <strong>Brazilian and German double citizenship</strong>. Currently I'm based in Tallinn, Estonia.",
+            "Software developer with <strong>11+ of work experience</strong>. I'm graduated as a Games Development technologist. I started my career programming for desktops, and today I work with web full-stack development.",
+            "I was born in Brazil and have <strong>Brazilian and German dual citizenship</strong>. Currently I'm based in Tallinn, Estonia.",
             "I always try to <strong>update my knowledge</strong> in software development technology to <strong>improve my skills</strong>. I consider <strong>continuous learning</strong> my great virtue, not only professionally, but also in other life aspects. My main goal, aside from career growing, is to be certain I did a well-done job, and that I did my best to achieve it."
           ]
         },
@@ -16,9 +16,9 @@
           "jobs": [{
             "company": "Bevira",
             "location": "Tallinn, Estonia",
-            "date": "Jan 2021 - Present",
+            "date": "Jan 2021 - Apr 2023",
             "position": "Full‑Stack Developer",
-            "summary": "Working on a web app for business processes automation.",
+            "summary": "Worked on a web app for business processes automation. Later worked on a restaurant management web app.",
             "activities": [
               "PHP and JS Implementation of new automation tasks based on client demands.",
               "Integration with third party APIs.",
@@ -124,7 +124,7 @@
         "about": {
           "title": "Sobre",
           "paragraphs": [
-            "Desenvolvedor de software com <strong>mais de 9 anos de experiência</strong> no mercado. Tenho graduação tecnológica em Jogos Digitais. Iniciei minha carreira com programação para desktop, e hoje trabalho com desenvolvimento full-stack para web.",
+            "Desenvolvedor de software com <strong>mais de 11 anos de experiência</strong> no mercado. Tenho graduação tecnológica em Jogos Digitais. Iniciei minha carreira com programação para desktop, e hoje trabalho com desenvolvimento full-stack para web.",
             "Nasci no Brasil e tenho <strong>dupla cidadania Brasileira e Alemã</strong>. Atualmente moro e trabalho em Tallinn, Estônia.",
             "Procuro sempre <strong>atualizar meus conhecimentos</strong> em tecnologia de desenvolvimento e <strong>aprimorar minhas habilidades</strong>. Considero o <strong>aprendizado contínuo</strong> minha maior virtude, não só na área profissional, mas também em outros aspectos da vida. Meu objetivo, além de crescimento na carreira, é de estar com a consciência tranquila de que meu trabalho foi bem feito e que me esforcei ao máximo para isso."
           ]
@@ -134,7 +134,7 @@
           "jobs": [{
             "company": "Bevira",
             "location": "Tallinn, Estônia",
-            "date": "Jan 2021 - Present",
+            "date": "Jan 2021 - Abr 2023",
             "position": "Full‑Stack Developer",
             "summary": "Desenvolvimento de aplicação web para automação de processos de negócios.",
             "activities": [

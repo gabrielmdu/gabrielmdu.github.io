@@ -9,9 +9,8 @@ const Projects = ({ classes }) => {
   const projs = [{
     title: 'Steam Store Tooltip',
     link: 'https://github.com/gabrielmdu/Steam-Store-Tooltip',
-    image: 'https://raw.githubusercontent.com/gabrielmdu/Steam-Store-Tooltip/master/demo.gif',
-    imageAlt: 'SST sample',
-    imageWidth: '500',
+    video: 'https://user-images.githubusercontent.com/4662954/169218360-a2ee190d-4c16-456b-965c-1525d86654c5.mp4',
+    videoWidth: 600,
     description: t('sessions.projects.sstDescription'),
     madeWith: ['JavaScript', 'SCSS', 'HTML']
   }, {
@@ -48,6 +47,11 @@ const Projects = ({ classes }) => {
               alt={p.imageAlt}
               width={p.imageWidth}
             />}
+          {p.video
+            && <video controls width={p.videoWidth}>
+              <source src={p.video} type="video/mp4"></source>
+            </video>
+          }
           <div className="flex items-center gs-made-with mt-3 text-sm">
             <div className="mr-2">
               {t('sessions.projects.madeWith')}:

@@ -10,11 +10,11 @@ const GsLink = props => {
   return (
     <Link
       className={
-        'border-b-2 pb-1 pt-2 px-2 my-10 mx-8 text-white uppercase ' +
+        'border-b-2 pb-1 pt-2 px-2 my-10 mx-8 uppercase ' +
         'transition-colors duration-500 ease-in-out hover:text-purple-900 hover:bg-white ' +
         (location.pathname === '/' + i18n.language + props.to
           ? 'bg-gray-200 text-gray-800'
-          : '')
+          : 'text-white')
       }
       to={'/' + i18n.language + props.to}
     >

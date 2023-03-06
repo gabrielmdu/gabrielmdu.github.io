@@ -1,9 +1,9 @@
 import React from 'react';
 import {
   BrowserRouter as Router,
-  Switch,
+  Routes,
   Route,
-  Redirect,
+  Navigate,
 } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { links } from '../common.js';
@@ -19,18 +19,16 @@ const Content = () => {
   const classes = "text-gray-200 mx-8 mb-6 sm:mx-10 md:mx-16 lg:mx-32 xl:mx-64";
 
   return [
-    <Route key={'home'} exact path="/">
-      <Redirect to={'/' + i18n.language + '/about'} />
-    </Route>,
+    <Route key={'home'} exact path="/" element={<Navigate to={'/' + i18n.language + '/about'} />} />,
     ...links.map(e => (
       <Route
         key={e.name}
         exact
         path={'/' + i18n.language + e.to}
-        render={() => <e.component classes={classes} />}
+        element={<e.component classes={classes} />}
       />
     )),
-    <Route key={'404'} render={() => <Gs404 classes={classes} />} />
+    <Route key={'404'} path='*' element={<Gs404 classes={classes} />} />
   ];
 };
 
@@ -45,9 +43,9 @@ const App = () => {
           <Header />
 
           <GsLinks />
-          <Switch>
+          <Routes>
             {Content()}
-          </Switch>
+          </Routes>
         </div>
       </Router>
     </>
