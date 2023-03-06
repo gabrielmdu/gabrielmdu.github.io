@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.b576964a.css",
-    "main.js": "/static/js/main.b515f034.js",
+    "main.js": "/static/js/main.319e6f12.js",
     "static/media/warpg.png": "/static/media/warpg.b5af2ab328bc7c527887.png",
     "static/media/gs.jpg": "/static/media/gs.afd7c2ba1dbf5afcce46.jpg",
     "static/media/favicon.svg": "/static/media/favicon.54b9f66f90d50f916525ca76dd07f454.svg",
@@ -17,10 +17,10 @@
     "static/media/about.svg": "/static/media/about.b5416f0a201254fbbb22258ac2339540.svg",
     "static/media/prog.svg": "/static/media/prog.fb934be200452a32a2fb0a1b4edae031.svg",
     "main.b576964a.css.map": "/static/css/main.b576964a.css.map",
-    "main.b515f034.js.map": "/static/js/main.b515f034.js.map"
+    "main.319e6f12.js.map": "/static/js/main.319e6f12.js.map"
   },
   "entrypoints": [
     "static/css/main.b576964a.css",
-    "static/js/main.b515f034.js"
+    "static/js/main.319e6f12.js"
   ]
 }
