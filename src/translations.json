@@ -16,6 +16,7 @@
           "jobs": [{
             "company": "Fastdev",
             "location": "Tallinn, Estonia",
+            "flag": "ee",
             "date": "Jun 2023",
             "position": "Full-Stack Developer",
             "summary": "Worked on a loan offers comparison web app for Lendo Denmark, where users can receive and select offers from multiple banks based on their provided data.",
@@ -28,6 +29,7 @@
           }, {
             "company": "Bevira",
             "location": "Tallinn, Estonia",
+            "flag": "ee",
             "date": "Jan 2021 - Apr 2023",
             "position": "Full-Stack Developer",
             "summary": "Worked on a web app for business processes automation. Later worked on a restaurant management web app.",
@@ -39,6 +41,7 @@
           }, {
             "company": "Postmetria",
             "location": "Porto Alegre, Brazil",
+            "flag": "br",
             "date": "Jun 2019 - Dec 2020",
             "position": "Full-Stack Developer",
             "summary": "Worked on a big data web app that measures costumer satisfaction with AI and lots of data collection from different sources.",
@@ -51,6 +54,7 @@
           }, {
             "company": "Judice Online",
             "location": "Porto Alegre, Brazil",
+            "flag": "br",
             "date": "Mar 2018 - Jun 2019",
             "position": "Full-Stack Developer",
             "summary": "Worked on a web app for law offices management, including lawsuits and hearings monitoring.",
@@ -63,6 +67,7 @@
           }, {
             "company": "BRS Sistemas Eletrônicos",
             "location": "Porto Alegre, Brazil",
+            "flag": "br",
             "date": "Feb 2012 - Mar 2018",
             "position": "Software Engineer",
             "summary": "Software engineering focused on desktop and web applications for building automation.",
@@ -77,6 +82,7 @@
           }, {
             "company": "VFR Sistemas",
             "location": "Porto Alegre, Brazil",
+            "flag": "br",
             "date": "Feb 2011 - Oct 2011",
             "position": "Support, Programmer",
             "summary": "Support on and programming for systems integrated with lab test equipments.",
@@ -89,6 +95,7 @@
           }, {
             "company": "TheVelopers",
             "location": "São Leopoldo, Brazil",
+            "flag": "br",
             "date": "Jun 2010 - Jun 2011",
             "position": "Programmer",
             "summary": "University group for games development on the iOS.",
@@ -99,6 +106,7 @@
           }, {
             "company": "PMI-RS",
             "location": "Porto Alegre, Brazil",
+            "flag": "br",
             "date": "Sep 2006 - Feb 2007",
             "position": "Web designer",
             "summary": "",
@@ -146,6 +154,7 @@
           "jobs": [{
             "company": "Fastdev",
             "location": "Tallinn, Estônia",
+            "flag": "ee",
             "date": "Jun 2023",
             "position": "Programador Full-Stack",
             "summary": "Desenvolvimento de um aplicativo web de comparação de ofertas de empréstimo para a Lendo Dinamarca, em que usuários recebem e selecionam ofertas de múltiplos bancos baseadas nos dados fornecidos.",
@@ -158,6 +167,7 @@
           }, {
             "company": "Bevira",
             "location": "Tallinn, Estônia",
+            "flag": "ee",
             "date": "Jan 2021 - Abr 2023",
             "position": "Programador Full-Stack",
             "summary": "Desenvolvimento de aplicação web para automação de processos de negócios.",
@@ -169,6 +179,7 @@
           }, {
             "company": "Postmetria",
             "location": "Porto Alegre, Brasil",
+            "flag": "br",
             "date": "Jun 2019 - Dez 2020",
             "position": "Programador Full-Stack",
             "summary": "Desenvolvimento de um aplicativo web de big data que mede a satisfação de consumidores com IA e extensa coleta de dados de diversas fontes.",
@@ -180,6 +191,7 @@
           }, {
             "company": "Judice Online",
             "location": "Porto Alegre, Brasil",
+            "flag": "br",
             "date": "Mar 2018 - Jun 2019",
             "position": "Programador Full-Stack",
             "summary": "Desenvolvimento de aplicação web para gerenciamento de escritórios de advocacia, incluindo monitoramento de processos e audiências.",
@@ -191,6 +203,7 @@
           }, {
             "company": "BRS Sistemas Eletrônicos",
             "location": "Porto Alegre, Brasil",
+            "flag": "br",
             "date": "Fev 2012 - Mar 2018",
             "position": "Projetista de software",
             "summary": "Engenharia de software para aplicações web e desktop voltada para automação predial.",
@@ -209,6 +222,7 @@
           }, {
             "company": "VFR Sistemas",
             "location": "Porto Alegre, Brasil",
+            "flag": "br",
             "date": "Fev 2011 - Out 2011",
             "position": "Suporte, Programador",
             "summary": "",
@@ -221,6 +235,7 @@
           }, {
             "company": "TheVelopers",
             "location": "São Leopoldo, Brasil",
+            "flag": "br",
             "date": "Jun 2010 - Jun 2011",
             "position": "Programador",
             "summary": "",
@@ -232,6 +247,7 @@
           }, {
             "company": "PMI-RS",
             "location": "Porto Alegre, Brasil",
+            "flag": "br",
             "date": "Set 2006 - Fev 2007",
             "position": "Web designer",
             "summary": "",

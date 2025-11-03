@@ -1,4 +1,5 @@
 import React from 'react';
+import Flag from "../Flag.js";
 import { useTranslation } from 'react-i18next';
 import './Experience.scss';
 
@@ -16,7 +17,9 @@ const Experience = ({ classes }) => {
             <div className="text-xs sm:text-base">{j.date}</div>
           </div>
           <div className="italic">{j.company}</div>
-          <div className="text-xs">{j.location}</div>
+          <div className="text-xs inline-flex items-center gap-x-1.5">
+            {j.location} <Flag country={j.flag} />
+          </div> 
           <div className="text-sm mt-3">{j.summary}</div>
           <ul className="gs-activities mt-4">
             {j.activities.map((a, i) => <li key={i} className="mb-1">{a}</li>)}
