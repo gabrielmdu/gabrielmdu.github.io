@@ -37,7 +37,7 @@ const App = () => {
     <>
       <div id="gs-background" />
       <Router>
-        <div className="container mx-auto">
+        <div className="container mx-auto pb-2">
           <ScrollToTop />
           <Menu />
           <Header />
