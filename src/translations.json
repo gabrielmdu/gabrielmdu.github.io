@@ -14,10 +14,22 @@
         "xp": {
           "title": "Experience",
           "jobs": [{
+            "company": "Fastdev",
+            "location": "Tallinn, Estonia",
+            "date": "Jun 2023",
+            "position": "Full-Stack Developer",
+            "summary": "Worked on a loan offers comparison web app for Lendo Denmark, where users can receive and select offers from multiple banks based on their provided data.",
+            "activities": [
+              "Full-stack development in PHP and Vue.js.",
+              "Integration with banking APIs and external services such as Braze, Slack, and Trustpilot.",
+              "Database management and optimization in MySQL.",
+              "CI/CD with Travis CI, GCP Services like Compute Engine and Cloud SQL."
+            ]
+          }, {
             "company": "Bevira",
             "location": "Tallinn, Estonia",
             "date": "Jan 2021 - Apr 2023",
-            "position": "Full‑Stack Developer",
+            "position": "Full-Stack Developer",
             "summary": "Worked on a web app for business processes automation. Later worked on a restaurant management web app.",
             "activities": [
               "PHP and JS Implementation of new automation tasks based on client demands.",
@@ -28,7 +40,7 @@
             "company": "Postmetria",
             "location": "Porto Alegre, Brazil",
             "date": "Jun 2019 - Dec 2020",
-            "position": "Full‑Stack Developer",
+            "position": "Full-Stack Developer",
             "summary": "Worked on a big data web app that measures costumer satisfaction with AI and lots of data collection from different sources.",
             "activities": [
               "SPA development in React and PHP with extensive creation and integration of own and third party REST APIs.",
@@ -40,7 +52,7 @@
             "company": "Judice Online",
             "location": "Porto Alegre, Brazil",
             "date": "Mar 2018 - Jun 2019",
-            "position": "Full‑Stack Developer",
+            "position": "Full-Stack Developer",
             "summary": "Worked on a web app for law offices management, including lawsuits and hearings monitoring.",
             "activities": [
               "PHP with MVC pattern, and jQuery with Bootstrap.",
@@ -132,10 +144,22 @@
         "xp": {
           "title": "Experiência",
           "jobs": [{
+            "company": "Fastdev",
+            "location": "Tallinn, Estônia",
+            "date": "Jun 2023",
+            "position": "Programador Full-Stack",
+            "summary": "Desenvolvimento de um aplicativo web de comparação de ofertas de empréstimo para a Lendo Dinamarca, em que usuários recebem e selecionam ofertas de múltiplos bancos baseadas nos dados fornecidos.",
+            "activities": [
+              "Desenvolvimento full-stack em PHP e Vue.js.",
+              "Integração com APIs bancárias e serviços externos como Braze, Slack e Trustpilot.",
+              "Gerência e otimização de banco de dados MySQL.",
+              "CI/CD com Travis CI, serviços GCP como Compute Engine e Cloud SQL."
+            ]
+          }, {
             "company": "Bevira",
             "location": "Tallinn, Estônia",
             "date": "Jan 2021 - Abr 2023",
-            "position": "Full‑Stack Developer",
+            "position": "Programador Full-Stack",
             "summary": "Desenvolvimento de aplicação web para automação de processos de negócios.",
             "activities": [
               "Desenvolvimento com PHP e JS para novas rotinas de automação conforme demanda de clientes.",
@@ -146,7 +170,7 @@
             "company": "Postmetria",
             "location": "Porto Alegre, Brasil",
             "date": "Jun 2019 - Dez 2020",
-            "position": "Programador Full‑Stack",
+            "position": "Programador Full-Stack",
             "summary": "Desenvolvimento de um aplicativo web de big data que mede a satisfação de consumidores com IA e extensa coleta de dados de diversas fontes.",
             "activities": [
               "Programação de SPA em React e PHP para ferramenta de medição de satisfação de consumidores",
@@ -157,7 +181,7 @@
             "company": "Judice Online",
             "location": "Porto Alegre, Brasil",
             "date": "Mar 2018 - Jun 2019",
-            "position": "Programador Full‑Stack",
+            "position": "Programador Full-Stack",
             "summary": "Desenvolvimento de aplicação web para gerenciamento de escritórios de advocacia, incluindo monitoramento de processos e audiências.",
             "activities": [
               "Desenvolvimento de software web para escritórios de advocacia",
