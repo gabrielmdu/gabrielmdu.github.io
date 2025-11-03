@@ -6,7 +6,12 @@ import './About.scss';
 const About = ({ classes }) => {
   const [t] = useTranslation();
 
-  const paragraphs = t('sessions.about.paragraphs', { returnObjects: true });
+  const workYearsDate = new Date(Date.now() - (new Date(2012, 6, 1)));
+  const workYears = workYearsDate.getFullYear() - 1970;
+
+  const paragraphs = t('sessions.about.paragraphs', { 
+    workYears: workYears, returnObjects: true 
+  });
 
   return (
     <div className={classes}>

@@ -6,7 +6,7 @@
         "about": {
           "title": "About",
           "paragraphs": [
-            "Software developer with <strong>11+ of work experience</strong>. I'm graduated as a Games Development technologist. I started my career programming for desktops, and today I work with web full-stack development.",
+            "Software developer with <strong>{{workYears}}+ of work experience</strong>. I'm graduated as a Games Development technologist. I started my career programming for desktops, and today I work with web full-stack development.",
             "I was born in Brazil and have <strong>Brazilian and German dual citizenship</strong>. Currently I'm based in Tallinn, Estonia.",
             "I always try to <strong>update my knowledge</strong> in software development technology to <strong>improve my skills</strong>. I consider <strong>continuous learning</strong> my great virtue, not only professionally, but also in other life aspects. My main goal, aside from career growing, is to be certain I did a well-done job, and that I did my best to achieve it."
           ]
