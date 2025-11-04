@@ -144,7 +144,7 @@
         "about": {
           "title": "Sobre",
           "paragraphs": [
-            "Desenvolvedor de software com <strong>mais de 11 anos de experiência</strong> no mercado. Tenho graduação tecnológica em Jogos Digitais. Iniciei minha carreira com programação para desktop, e hoje trabalho com desenvolvimento full-stack para web.",
+            "Desenvolvedor de software com <strong>mais de {{workYears}} anos de experiência</strong> no mercado. Tenho graduação tecnológica em Jogos Digitais. Iniciei minha carreira com programação para desktop, e hoje trabalho com desenvolvimento full-stack para web.",
             "Nasci no Brasil e tenho <strong>dupla cidadania Brasileira e Alemã</strong>. Atualmente moro e trabalho em Tallinn, Estônia.",
             "Procuro sempre <strong>atualizar meus conhecimentos</strong> em tecnologia de desenvolvimento e <strong>aprimorar minhas habilidades</strong>. Considero o <strong>aprendizado contínuo</strong> minha maior virtude, não só na área profissional, mas também em outros aspectos da vida. Meu objetivo, além de crescimento na carreira, é de estar com a consciência tranquila de que meu trabalho foi bem feito e que me esforcei ao máximo para isso."
           ]
