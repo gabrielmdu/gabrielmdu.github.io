@@ -8,7 +8,7 @@ const countryFlags = {
 };
 
 const Flag = ({ country }) => {
-  return <img src={countryFlags[country]} width={18}></img>;
+  return <img src={countryFlags[country]} width={18} alt={"flag-" + country}></img>;
 };
 
 export default Flag;
