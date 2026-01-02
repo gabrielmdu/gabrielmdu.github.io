@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
-import { TranslationButtons } from './TranslationButtons.js';
-import { useSocialLinks, links } from '../common.js';
-import { ReactComponent as GsLogo } from '../assets/img/favicon.svg';
+import { TranslationButtons } from './TranslationButtons.jsx';
+import { useSocialLinks, links } from '../common.jsx';
+import GsLogo from '@/assets/img/favicon.svg?react';
 import './Menu.scss';
 
 const Menu = () => {

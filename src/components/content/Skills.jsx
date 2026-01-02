@@ -1,8 +1,8 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import { ReactComponent as ProgLogo } from '../../assets/img/prog.svg';
-import { ReactComponent as ToolsLogo } from '../../assets/img/tools.svg';
-import { ReactComponent as LanguagesLogo } from '../../assets/img/languages.svg';
+import ProgLogo from '@/assets/img/prog.svg?react';
+import ToolsLogo from '@/assets/img/tools.svg?react';
+import LanguagesLogo from '@/assets/img/languages.svg?react';
 import './Skills.scss';
 
 const Skills = ({ classes }) => {

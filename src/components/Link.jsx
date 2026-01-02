@@ -1,7 +1,7 @@
 import React from 'react';
 import { useLocation, Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import { links } from '../common.js';
+import { links } from '../common.jsx';
 
 const GsLink = props => {
   const location = useLocation();

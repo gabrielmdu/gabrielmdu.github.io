@@ -6,12 +6,12 @@ import {
   Navigate,
 } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import { links } from '../common.js';
-import Header from './Header.js';
-import Menu from './Menu.js';
-import GsLinks from './Link.js';
-import Gs404 from './404.js';
-import ScrollToTop from './ScrollToTop.js';
+import { links } from '../common.jsx';
+import Header from './Header.jsx';
+import Menu from './Menu.jsx';
+import GsLinks from './Link.jsx';
+import Gs404 from './404.jsx';
+import ScrollToTop from './ScrollToTop.jsx';
 
 const Content = () => {
   const [, i18n] = useTranslation();

@@ -1,8 +1,8 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { useLocation } from 'react-router-dom';
-import { TranslationButtons } from './TranslationButtons.js';
-import { useSocialLinks, links } from '../common.js';
+import { TranslationButtons } from './TranslationButtons.jsx';
+import { useSocialLinks, links } from '../common.jsx';
 import './Header.scss';
 
 const Header = () => {

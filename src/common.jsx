@@ -1,15 +1,15 @@
-import About from './components/content/About.js';
-import Experience from './components/content/Experience.js';
-import Skills from './components/content/Skills.js';
-import Projects from './components/content/Projects.js';
-import { ReactComponent as GitHubLogo } from './assets/img/github.svg';
-import { ReactComponent as LinkedInLogo } from './assets/img/linkedin.svg';
-import { ReactComponent as AboutLogo } from './assets/img/about.svg';
-import { ReactComponent as XpLogo } from './assets/img/xp.svg';
-import { ReactComponent as SkillsLogo } from './assets/img/skills.svg';
-import { ReactComponent as ProjectsLogo } from './assets/img/projects.svg';
+import About from './components/content/About.jsx';
+import Experience from './components/content/Experience.jsx';
+import Skills from './components/content/Skills.jsx';
+import Projects from './components/content/Projects.jsx';
+import GitHubLogo from './assets/img/github.svg?react';
+import LinkedInLogo from './assets/img/linkedin.svg?react';
+import AboutLogo from './assets/img/about.svg?react';
+import XpLogo from './assets/img/xp.svg?react';
+import SkillsLogo from './assets/img/skills.svg?react';
+import ProjectsLogo from './assets/img/projects.svg?react';
+import CvLogo from './assets/img/cv.svg?react';
 import { useTranslation } from 'react-i18next';
-import { ReactComponent as CvLogo } from './assets/img/cv.svg';
 
 export const links = [{
   to: '/about',

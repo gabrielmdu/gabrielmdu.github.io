@@ -4,7 +4,7 @@ My Github Page developed with React, Tailwind and i18next. It shows information 
 
 To start the development server:
 
-    npm start
+    npm run dev
 
 To build for production:
 
