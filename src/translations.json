@@ -7,7 +7,7 @@
           "title": "About",
           "paragraphs": [
             "Software developer with <strong>{{workYears}}+ of work experience</strong>. I'm graduated as a Games Development technologist. I started my career programming for desktops, and today I work with web full-stack development.",
-            "I was born in Brazil and have <strong>Brazilian and German dual citizenship</strong>. Currently I'm based in Tallinn, Estonia.",
+            "I was born in Brazil and have <strong>Brazilian and German dual citizenship</strong>, allowing me to work in the EU. Currently I'm based in Tallinn, Estonia.",
             "I always try to <strong>update my knowledge</strong> in software development technology to <strong>improve my skills</strong>. I consider <strong>continuous learning</strong> my great virtue, not only professionally, but also in other life aspects. My main goal, aside from career growing, is to be certain I did a well-done job, and that I did my best to achieve it."
           ]
         },
@@ -17,11 +17,11 @@
             "company": "Fastdev",
             "location": "Tallinn, Estonia",
             "flag": "ee",
-            "date": "Jun 2023",
+            "date": "Jun 2023 - Dec 2025",
             "position": "Full-Stack Developer",
             "summary": "Worked on a loan offers comparison web app for Lendo Denmark, where users can receive and select offers from multiple banks based on their provided data.",
             "activities": [
-              "Full-stack development in PHP and Vue.js.",
+              "Full-stack development in PHP (Zend) and Vue.",
               "Integration with banking APIs and external services such as Braze, Slack, and Trustpilot.",
               "Database management and optimization in MySQL.",
               "CI/CD with Travis CI, GCP Services like Compute Engine and Cloud SQL."
@@ -32,11 +32,11 @@
             "flag": "ee",
             "date": "Jan 2021 - Apr 2023",
             "position": "Full-Stack Developer",
-            "summary": "Worked on a web app for business processes automation. Later worked on a restaurant management web app.",
+            "summary": "Worked on a web app for business processes automation. Later worked on a restaurant management web app in Inertia.js (Laravel + React).",
             "activities": [
               "PHP and JS Implementation of new automation tasks based on client demands.",
               "Integration with third party APIs.",
-              "Back-end unit test code coverage."
+              "Docker containers environment."
             ]
           }, {
             "company": "Postmetria",
@@ -46,10 +46,10 @@
             "position": "Full-Stack Developer",
             "summary": "Worked on a big data web app that measures costumer satisfaction with AI and lots of data collection from different sources.",
             "activities": [
-              "SPA development in React and PHP with extensive creation and integration of own and third party REST APIs.",
-              "Back-end unit test code coverage.",
+              "SPA development in React and PHP (Yii 2/Laravel frameworks) with extensive creation and integration of own and third party REST APIs.",
               "Python automation scripts and microservice using Flask.",
-              "Docker containers environment, MySQL for persistent data and Elasticsearch for full text search."
+              "Docker containers environment, MySQL for persistent data and Elasticsearch for full text search.",
+              "GCP services like Compute Engine and GCS."
             ]
           }, {
             "company": "Judice Online",
@@ -121,7 +121,7 @@
           "tools": "Tools",
           "languages": {
             "title": "Languages",
-            "list": ["Portuguese (native)", "English (B2)", "Spanish (basic)"]
+            "list": ["Portuguese (native)", "English (professional)", "Spanish (basic)"]
           }
         },
         "projects": {
@@ -145,7 +145,7 @@
           "title": "Sobre",
           "paragraphs": [
             "Desenvolvedor de software com <strong>mais de {{workYears}} anos de experiência</strong> no mercado. Tenho graduação tecnológica em Jogos Digitais. Iniciei minha carreira com programação para desktop, e hoje trabalho com desenvolvimento full-stack para web.",
-            "Nasci no Brasil e tenho <strong>dupla cidadania Brasileira e Alemã</strong>. Atualmente moro e trabalho em Tallinn, Estônia.",
+            "Nasci no Brasil e tenho <strong>dupla cidadania Brasileira e Alemã</strong>, o que me permite trabalhar na UE. Atualmente moro e trabalho em Tallinn, Estônia.",
             "Procuro sempre <strong>atualizar meus conhecimentos</strong> em tecnologia de desenvolvimento e <strong>aprimorar minhas habilidades</strong>. Considero o <strong>aprendizado contínuo</strong> minha maior virtude, não só na área profissional, mas também em outros aspectos da vida. Meu objetivo, além de crescimento na carreira, é de estar com a consciência tranquila de que meu trabalho foi bem feito e que me esforcei ao máximo para isso."
           ]
         },
@@ -159,7 +159,7 @@
             "position": "Programador Full-Stack",
             "summary": "Desenvolvimento de um aplicativo web de comparação de ofertas de empréstimo para a Lendo Dinamarca, em que usuários recebem e selecionam ofertas de múltiplos bancos baseadas nos dados fornecidos.",
             "activities": [
-              "Desenvolvimento full-stack em PHP e Vue.js.",
+              "Desenvolvimento full-stack em PHP (Zend) e Vue.",
               "Integração com APIs bancárias e serviços externos como Braze, Slack e Trustpilot.",
               "Gerência e otimização de banco de dados MySQL.",
               "CI/CD com Travis CI, serviços GCP como Compute Engine e Cloud SQL."
@@ -262,7 +262,7 @@
           "tools": "Ferramentas",
           "languages": {
             "title": "Línguas",
-            "list": ["Português (nativo)", "Inglês (B2)", "Espanhol (básico)"]
+            "list": ["Português (nativo)", "Inglês (profissional)", "Espanhol (básico)"]
           }
         },
         "projects": {
